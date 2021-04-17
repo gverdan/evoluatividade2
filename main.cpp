@@ -1,14 +1,17 @@
 #include <iostream>
+#include <string>
+
+using namespace std;
 
 int main() {
 int primeiro=1;
-Segundo=2;
-Terceiro=3;
-Quarto=4;
-Quinto=5;
-Sexto=6;
-Sétimo=7;
-Oitavo=8;
+int Segundo=2;
+int Terceiro=3;
+int Quarto=4;
+int Quinto=5;
+int Sexto=6;
+int Sétimo=7;
+int Oitavo=8;
 char vet[]={‘a’,’b’,’c’};
 string X;
 
