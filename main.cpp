@@ -17,7 +17,17 @@ string X;
 
 Cout << “Digite a palavra X com letras minúsculas com no máximo 50 caracteres” << endl;
 getline (cin, X);
-if (X.lenght() < 50) {
+
+if (X.lenght() < 50) 
+{
 cout <<”A palavra escrita foi:” << X << endl;
+for (int i=0; i< X.size(); i++) {
+  for(int j=0; j<3; j++){
+    if(vet[j]==X[i]){
+      cout <<"#2="<< cont1 <<endl;
+      break;
+    }
+  }
+}
 
 }
