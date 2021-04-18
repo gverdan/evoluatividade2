@@ -27,7 +27,16 @@ for (int i=0; i< X.size(); i++) {
       cout <<"#2="<< cont1 <<endl;
       break;
     }
+    cont1=cont1+1;
   }
+  cont1=cont1+1;
 }
-
+cont1=1;
+for (int k=0; k<3;k++){
+  if(vet==P[i]){
+    cout <<"#1=" << count2 << endl;
+    brek;
+  }
+  
+}
 }
