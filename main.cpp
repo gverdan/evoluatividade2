@@ -5,13 +5,13 @@ using namespace std;
 
 int main() {
 int primeiro=1;
-int Segundo=2;
-int Terceiro=3;
-int Quarto=4;
-int Quinto=5;
-int Sexto=6;
-int Sétimo=7;
-int Oitavo=8;
+int Segundo=1;
+int Terceiro=1;
+int Quarto=1;
+int Quinto=1;
+int Sexto=1;
+int Sétimo=1;
+int Oitavo=1;
 char vet[]={‘a’,’b’,’c’};
 string X;
 
@@ -27,16 +27,16 @@ for (int i=0; i< X.size(); i++) {
       cout <<"#2="<< cont1 <<endl;
       break;
     }
-    cont1=cont1+1;
+    primeiro=primeiro+1;
   }
-  cont1=cont1+1;
+  primeiro=primeiro+1;
 }
-cont1=1;
+primeiro=1;
 for (int k=0; k<3;k++){
   if(vet==P[i]){
-    cout <<"#1=" << count2 << endl;
+    cout <<"#1=" << segundo << endl;
     brek;
   }
-  
+
 }
 }
